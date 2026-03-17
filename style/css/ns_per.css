@@ -1,0 +1,40 @@
+/* fontes */
+
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Pixelify+Sans:wght@400..700&display=swap");
+@font-face {
+	font-family: w95;
+	src: url("https://raw.githubusercontent.com/Tiaguinhw/files/master/fonts/pixel/w95fa/W95FA.otf") format("opentype");
+}
+body,
+.modal-nav-hamburger .list-subitems .nav-list-link,
+input,
+textarea,
+.form-control,
+.form-select, .form-quantity {
+	font-family: w95, sans-serif;
+}
+
+.h2-extra-huge-md, .h1-huge, .h3-huge, .h4-huge, .be-overlay__label {
+	font-family: "Bebas Neue", "Big Shoulders Display", sans-serif;
+}
+
+.modal-nav-hamburger .nav-list-link {
+	font-family: "Bebas Neue", "Big Shoulders Display", sans-serif;
+}
+
+/* solução do problema de transparencia das fotos dos produtos */
+.js-item-image-padding, 
+.product-item-image-container,
+.js-item-container {
+    background-color: transparent !important;
+    background-image: none !important;
+}
+.item-image-featured.lazyload, 
+.item-image-featured.lazyloading {
+    opacity: 1 !important;
+    visibility: visible !important;
+    display: block !important;
+}
+.item-image-secondary {
+    display: block !important;
+}
